@@ -4,8 +4,8 @@
 
 Name:           curlie
 Version:        1.6.0
-Release:        1%{?dist}
-Summary:        The power of curl, the ease of use of httpie. 
+Release:        1
+Summary:        The power of curl, the ease of use of httpie.
 Group:          Applications/System
 License:        MIT
 URL:            https://github.com/%{gh_user}/%{name}
