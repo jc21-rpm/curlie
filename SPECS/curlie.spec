@@ -4,7 +4,7 @@
 
 Name:           curlie
 Version:        1.7.2
-Release:        1
+Release:        1%{?dist}
 Summary:        The power of curl, the ease of use of httpie.
 Group:          Applications/System
 License:        MIT
