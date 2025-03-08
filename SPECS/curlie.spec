@@ -3,7 +3,7 @@
 %global gh_user rs
 
 Name:           curlie
-Version:        1.7.2
+Version:        1.8.2
 Release:        1%{?dist}
 Summary:        The power of curl, the ease of use of httpie.
 Group:          Applications/System
@@ -32,6 +32,9 @@ install -Dm0755 %{_builddir}/bin/%{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Sat Mar 8 2025 Jamie Curnow <jc@jc21.com> 1.8.2-1
+- https://github.com/rs/curlie/releases/tag/v1.8.2
+
 * Tue Oct 24 2023 Jamie Curnow <jc@jc21.com> 1.7.2-1
 - https://github.com/rs/curlie/releases/tag/v1.7.2
 
